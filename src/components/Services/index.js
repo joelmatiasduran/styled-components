@@ -1,7 +1,4 @@
 import React from 'react'
-import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-7.svg';
-import Icon3 from '../../images/svg-3.svg';
 import {ServicesContainer, ServicesH1,ServicesWrapper, 
 ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements';
 
@@ -14,25 +11,30 @@ const Services = () => {
 
                 <ServicesCard>
                     <a href="https://to-do-list-joel.herokuapp.com/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
-                      <ServicesIcon src={Icon1}/>
-                      <ServicesH2>To-Do List</ServicesH2>
-                      <ServicesP>React Js, CSS, JavaScript</ServicesP>
+                    <p>Future Lottie</p>
+                      <ServicesH2>Task Management</ServicesH2>
+                      <ServicesP>Next Js, PostgreSQL, Nest Js, Node Js & Tailwind CSS </ServicesP>
                     </a>
                 </ServicesCard>
 
                 <ServicesCard>
-                    <a href="https://cryptopricesapi.netlify.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
-                      <ServicesIcon src={Icon2}/>
-                      <ServicesH2>Crypto-Prices</ServicesH2>
-                      <ServicesP>React Js, API, JavaScript</ServicesP>
+                    <a> 
+                      <p>Future Lottie</p>
+                      <ServicesH2>Poke Dex</ServicesH2>
+                      <ServicesP>Next Js, Authentication, TypeSCript, Tailwind CSS, Axios & React Hooks </ServicesP>
+                      <ServicesH2>Code</ServicesH2>
+                      <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank'>
+                      <ServicesH2>Demo</ServicesH2>
+                      </a>
                     </a>
                 </ServicesCard>
 
                 <ServicesCard>
-                    <a href="https://joelmatias.netlify.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
-                      <ServicesIcon src={Icon3}/>
-                      <ServicesH2>This Website</ServicesH2>
-                      <ServicesP>React Js, Responsive Design</ServicesP>
+                    <a href="https://www.swympools.org/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
+                    <p>Future Lottie</p>
+                      <ServicesH2>Swym Pools</ServicesH2>
+                      <ServicesP>React Js, Responsive Design, Styled Components</ServicesP>
+                      
                     </a>
                 </ServicesCard>
 

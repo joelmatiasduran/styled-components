@@ -20,7 +20,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Hi! I'm Joel Matias </HeroH1>
-                <HeroP>Front End Developer</HeroP>
+                <HeroP>Software Developer</HeroP>
                 <HeroBtnWrapper>
                     <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover}
                         primary='true' dark='true'

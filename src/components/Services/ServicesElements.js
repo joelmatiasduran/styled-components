@@ -38,7 +38,8 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-    background: #fff;
+    background: black;
+    color:yellow;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -50,7 +51,9 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
 
     &:hover{
-        transform: scale(1.02);
+        background:black;
+        color:white;
+        transform: scale(1.25);
         transition: all 0.2s ease-in-out;
         cursor:pointer;
     }   
@@ -79,4 +82,15 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+    color:#fcd600f8;
+    &hover{
+        transition: all 0.2s ease-in-out;
+        color:blue;
+    }
+    &hover {
+        ${ServicesH1}{
+            color:blue;
+        }
+    }
 `;

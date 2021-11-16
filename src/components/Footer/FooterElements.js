@@ -58,7 +58,7 @@ export const FooterLink = styled(Link)`
     font-size: 14px;
     
     &:hover{
-        color: #ff0066;
+        color: #fcd600f8;
         transition: 0.3 ease-out;
         cursor:pointer;
     }
@@ -113,6 +113,6 @@ export const SocialIconLink = styled.a`
 
     &:hover{
         transition-duration: .5s;
-        color: #f04;
+        color: #fcd600f8;
     }
 `;
