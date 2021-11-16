@@ -1,6 +1,7 @@
 import React from 'react'
 import {ServicesContainer, ServicesH1,ServicesWrapper, 
 ServicesCard, ServicesH2, ServicesP} from './ServicesElements';
+import BitcoinLottie from '../Lottie/bitcoin'
 
 const Services = () => {
     return (
@@ -22,7 +23,7 @@ const Services = () => {
                    
                       <p>Future Lottie</p>
                       <ServicesH2>Poke Dex</ServicesH2>
-                      <ServicesP>Next Js, Authentication, TypeSCript, Tailwind CSS, Axios & React Hooks </ServicesP>
+                      <ServicesP>Next Js, Authentication, TypeScript, Tailwind CSS, Axios & React Hooks </ServicesP>
                       <ServicesH2>Code</ServicesH2>
                       <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank rel="noreferrer'>
                       <ServicesH2>Demo</ServicesH2>
@@ -32,7 +33,7 @@ const Services = () => {
 
                 <ServicesCard>
                     <a href="https://www.swympools.org/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
-                    <p>Future Lottie</p>
+                    <BitcoinLottie/>
                       <ServicesH2>Swym Pools</ServicesH2>
                       <ServicesP>React Js, Responsive Design, Styled Components</ServicesP>
                       
