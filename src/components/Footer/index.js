@@ -1,6 +1,6 @@
 import React from 'react';
 import {animateScroll as Scroll} from 'react-scroll';
-import {/* FaFacebook, FaInstagram, FaYoutube ,FaTwitter*/ FaLinkedin} from 'react-icons/fa';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, 
     WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements';
 
@@ -109,9 +109,12 @@ const Footer = () => {
                             Joel
                         </SocialLogo>
                         <WebsiteRights>Joel © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-                        <SocialIcons>                            
+                        <SocialIcons>                               
                            <SocialIconLink onClick={goToMyLinkedIn} target="_blank" aria-label="LinkedIn">
                                 <FaLinkedin/>
+                            </SocialIconLink>
+                            <SocialIconLink onClick={goToMyGitHub} target="_blank" aria-label="LinkedIn">
+                                <FaGithub/>
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

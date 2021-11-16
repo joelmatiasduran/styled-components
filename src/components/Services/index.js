@@ -1,6 +1,7 @@
 import React from 'react'
 import {ServicesContainer, ServicesH1,ServicesWrapper, 
 ServicesCard, ServicesH2, ServicesP} from './ServicesElements';
+import {FaGithub} from 'react-icons/fa';
 import BitcoinLottie from '../Lottie/bitcoin'
 import Ecommerce from '../Lottie/ecommerce';
 import Pikachu from '../Lottie/pikachu';
@@ -18,6 +19,7 @@ const Services = () => {
                     <Ecommerce/>
                       <ServicesH2>E-Commerce</ServicesH2>
                       <ServicesP>Next js, Mongo DB, Express, Node Js & Styled Components </ServicesP>
+                      <FaGithub/>
                     </a>
                 </ServicesCard>
 
@@ -26,9 +28,10 @@ const Services = () => {
                       <Pikachu/>
                       <ServicesH2>Poke Dex</ServicesH2>
                       <ServicesP>Next Js, Authentication, TypeScript, Tailwind CSS, Axios & React Hooks </ServicesP>
-                      <ServicesH2>Code</ServicesH2>
+                      
                       <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' rel="noreferrer">
                       <ServicesH2>Demo</ServicesH2>
+                      <FaGithub/>
                       </a>
                   
                 </ServicesCard>
@@ -38,7 +41,7 @@ const Services = () => {
                     <BitcoinLottie/>
                       <ServicesH2>Swym Pools</ServicesH2>
                       <ServicesP>React Js, Responsive Design, Styled Components</ServicesP>
-                      
+                      <FaGithub/>
                     </a>
                 </ServicesCard>
 
