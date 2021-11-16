@@ -2,6 +2,7 @@ import React from 'react';
 import {Button} from '../ButtonElement';
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2,
     TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements';
+// eslint-disable-next-line no-unused-vars
 import {animateScroll as scroll} from 'react-scroll';
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
@@ -26,7 +27,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <BtnWrap>
                                 <Button 
                                     to={redirectTo}
-                                    onClick={() => id == 'contact' ?  sendMail() : null}
+                                    onClick={() => id === 'contact' ?  sendMail() : null}
                                     smooth={true}
                                     duration={500}
                                     spy="true"
