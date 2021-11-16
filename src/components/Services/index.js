@@ -19,6 +19,8 @@ const Services = () => {
                     <Ecommerce/>
                       <ServicesH2>E-Commerce</ServicesH2>
                       <ServicesP>Next js, Mongo DB, Express, Node Js & Styled Components </ServicesP>
+                    </a>
+                    <a href="https://github.com/" target='_blank' rel="noreferrer">
                       <FaGithub/>
                     </a>
                 </ServicesCard>
@@ -31,8 +33,11 @@ const Services = () => {
                       
                       <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' rel="noreferrer">
                       <ServicesH2>Demo</ServicesH2>
-                      <FaGithub/>
+                      
                       </a>
+                      <a href="https://github.com/" target='_blank' rel="noreferrer">
+                      <FaGithub/>
+                    </a>
                   
                 </ServicesCard>
 
@@ -40,7 +45,9 @@ const Services = () => {
                     <a href="https://www.swympools.org/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
                     <BitcoinLottie/>
                       <ServicesH2>Swym Pools</ServicesH2>
-                      <ServicesP>React Js, Responsive Design, Styled Components</ServicesP>
+                      <ServicesP>React Js, Responsive Design, Styled Components</ServicesP>      
+                    </a>
+                    <a href="https://github.com/" target='_blank' rel="noreferrer">
                       <FaGithub/>
                     </a>
                 </ServicesCard>
