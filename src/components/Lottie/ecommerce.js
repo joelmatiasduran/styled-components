@@ -9,7 +9,7 @@ const Ecommerce = () => {
       renderer: "svg",
       loop: true,
       autoplay: true,
-      animationData: require("../../images/bitcoinlottie.json"),
+      animationData: require("../../images/ecommerce.json"),
     });
     return () => {
       lottie.destroy();
