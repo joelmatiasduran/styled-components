@@ -14,7 +14,7 @@ const Services = () => {
 
                 <ServicesCard>
                  
-                    <a href="https://to-do-list-joel.herokuapp.com/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' rel="noreferrer" > 
+                    <a href="comingsooon.dev" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' rel="noreferrer" > 
                     <Ecommerce/>
                       <ServicesH2>E-Commerce</ServicesH2>
                       <ServicesP>Next js, Mongo DB, Express, Node Js & Styled Components </ServicesP>
@@ -27,7 +27,7 @@ const Services = () => {
                       <ServicesH2>Poke Dex</ServicesH2>
                       <ServicesP>Next Js, Authentication, TypeScript, Tailwind CSS, Axios & React Hooks </ServicesP>
                       <ServicesH2>Code</ServicesH2>
-                      <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank rel="noreferrer'>
+                      <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' rel="noreferrer">
                       <ServicesH2>Demo</ServicesH2>
                       </a>
                   
