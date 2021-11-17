@@ -37,7 +37,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-  box-shadow: 0px 0px 40px 10px #0ff;
+  box-shadow: 0px 0px 40px 10px #fcd600f8;
   padding: 0.4em;
 
   background: black;
