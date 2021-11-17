@@ -35,7 +35,7 @@ const Services = () => {
                   </a>
 
                   <InfoContainer>    
-                    <a href="https://github.com/joelmatiasduran/next-api-pokemon" target='_blank' rel="noreferrer" style={{color: 'inherit', transform: 'scale(1.55)', textAlign: 'center'}} >
+                    <a href="https://github.com/joelmatiasduran/next-api-pokemon" target='_blank' rel="noreferrer">
                       <FaGithub/>
                     </a>
                   </InfoContainer>

@@ -7,13 +7,13 @@ export const ServicesContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #010606;
-    color: black;
+    /* color: black; */
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 2100px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1300px;  
+        height: 2300px;  
     }
 `;
 
@@ -40,6 +40,7 @@ export const ServicesWrapper = styled.div`
 export const ServicesCard = styled.div`
     background: black;
     color:yellow;
+    fill: yellow;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,15 +64,16 @@ export const InfoContainer = styled.div`
     padding: 1rem 0;
     height: 160px;
     width: 160px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
-
-    &:hover{
-        color:pink;
+    color: yellow;
+    transform: scale(1.55);
+    text-align: center;
+    &:hover{       
         transform: scale(2.5);
         transition: all 0.2s ease-in-out;
     }
@@ -106,14 +108,10 @@ export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
     transition: all 0.2s ease-in-out;
-    color:#fcd600f8;
+    color: white;
+    
     &hover{
         transition: all 0.2s ease-in-out;
-        color:blue;
-    }
-    &hover {
-        ${ServicesH1}{
-            color:blue;
-        }
+        color:yellow;
     }
 `;
