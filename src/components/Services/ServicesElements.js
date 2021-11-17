@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    max-height: 380px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
@@ -53,10 +53,33 @@ export const ServicesCard = styled.div`
     &:hover{
         background:black;
         color:white;
-        transform: scale(1.25);
+        transform: scale(1.15);
         transition: all 0.2s ease-in-out;
         /* cursor:pointer; */
     }   
+`;
+
+export const InfoContainer = styled.div`
+    padding: 1rem 0;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        color:pink;
+        transform: scale(2.5);
+        transition: all 0.2s ease-in-out;
+    }
+    &:active{
+        color:yellow;
+        transform: scale(3.5);
+        transition: all 0.2s ease-in-out;
+    }
 `;
 
 export const ServicesIcon = styled.img`
