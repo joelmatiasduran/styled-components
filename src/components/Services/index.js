@@ -20,7 +20,7 @@ const Services = () => {
                       <ServicesH2>E-Commerce</ServicesH2>
                       <ServicesP>Next js, Mongo DB, Express, Node Js & Styled Components </ServicesP>
                     </a>
-                    <a href="https://github.com/" target='_blank' rel="noreferrer">
+                    <a href="https://github.com/joelmatiasduran/to-do-app-nov" target='_blank' rel="noreferrer">
                       <FaGithub/>
                     </a>
                 </ServicesCard>
@@ -32,10 +32,9 @@ const Services = () => {
                       <ServicesP>Next Js, Authentication, TypeScript, Tailwind CSS, Axios & React Hooks </ServicesP>
                       
                       <a href="https://next-api-pokemon.vercel.app/" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' rel="noreferrer">
-                      <ServicesH2>Demo</ServicesH2>
-                      
+              
                       </a>
-                      <a href="https://github.com/" target='_blank' rel="noreferrer">
+                      <a href="https://github.com/joelmatiasduran/next-api-pokemon" target='_blank' rel="noreferrer" style={{color: 'inherit', transform: 'scale(1.55)', textAlign: 'center'}} >
                       <FaGithub/>
                     </a>
                   
