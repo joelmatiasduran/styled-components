@@ -120,6 +120,9 @@ const Services = () => {
             </InfoContainer>
           </ServicesCard>
         </ServicesWrapper>
+        {/* <h1 style={{ padding: "5rem 0rem" }}>Tech Stack</h1>
+        <h2>Next Js, React Js, Tailwind CSS, </h2>
+        <h2>Node Js, Nest Js, Express, </h2> */}
       </ServicesContainer>
     </>
   );
