@@ -9,11 +9,11 @@ export const ServicesContainer = styled.div`
     background: #010606;
     /* color: black; */
     @media screen and (max-width: 768px) {
-        height: 2100px;
+        height: 2350px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 2300px;  
+        height: 2350px;  
     }
 `;
 
@@ -53,11 +53,19 @@ export const ServicesCard = styled.div`
 
     &:hover{
         background:black;
-        color:white;
         transform: scale(1.15);
         transition: all 0.2s ease-in-out;
         /* cursor:pointer; */
-    }   
+    }  
+    @media screen and (max-width: 768px) {
+        max-height: 580px;
+    }
+
+    @media screen and (max-width: 480px) {
+        max-height: 580px; 
+    } 
+
+    
 `;
 
 export const InfoContainer = styled.div`
@@ -84,11 +92,7 @@ export const InfoContainer = styled.div`
     }
 `;
 
-export const ServicesIcon = styled.img`
-    height: 160px;
-    width: 160px;
-    margin-bottom: 10px;
-`;
+
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: white;

@@ -21,7 +21,7 @@ const Services = () => {
                       <ServicesP>Next js, Mongo DB, Express, Node Js & Styled Components </ServicesP>
                     </a>
                     <InfoContainer>
-                      <a href="https://github.com/joelmatiasduran/to-do-app-nov" target='_blank' rel="noreferrer">
+                      <a href="https://github.com/joelmatiasduran/to-do-app-nov" target='_blank' rel="noreferrer" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}>
                         <FaGithub/>
                       </a>
                     </InfoContainer>
@@ -35,7 +35,7 @@ const Services = () => {
                   </a>
 
                   <InfoContainer>    
-                    <a href="https://github.com/joelmatiasduran/next-api-pokemon" target='_blank' rel="noreferrer">
+                    <a href="https://github.com/joelmatiasduran/next-api-pokemon" target='_blank' rel="noreferrer" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}>
                       <FaGithub/>
                     </a>
                   </InfoContainer>
@@ -49,7 +49,7 @@ const Services = () => {
                     <ServicesP>React Js, Responsive Design, Styled Components</ServicesP>      
                   </a>
                   <InfoContainer>  
-                    <a href="https://github.com/" target='_blank' rel="noreferrer">
+                    <a href="https://github.com/" target='_blank' rel="noreferrer" style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}>
                       <FaGithub/>
                     </a>
                   </InfoContainer>
