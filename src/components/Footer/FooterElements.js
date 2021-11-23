@@ -100,6 +100,7 @@ export const WebsiteRights = styled.small`
 
 export const SocialIcons = styled.div`
   display: flex;
+  max-width: 4rem;
   justify-content: space-between;
   align-items: center;
   width: 240px;
