@@ -75,6 +75,7 @@ export const NavLinks = styled(LinkS)`
   text-transform: ${({ scrollNav }) => (scrollNav ? "none" : "Uppercase")};
   color: ${({ scrollNav }) => (scrollNav ? "white" : "black")};
   display: flex;
+  font-weight: ${({ scrollNav }) => (scrollNav ? "300" : "800")};
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
