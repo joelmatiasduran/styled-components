@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 export const NavLogo = styled(LinkR)`
-  color: #fff;
+  color: ${({ scrollNav }) => (scrollNav ? "white" : "black")};
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -72,7 +72,9 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  text-transform: Uppercase;
+  font-weight: 700;
+  color: ${({ scrollNav }) => (scrollNav ? "white" : "black")};
   font-weight: bolder;
   display: flex;
   align-items: center;
@@ -81,6 +83,7 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   transition: all 2s ease-in-out;
+
   &.active {
     border-bottom: 3px solid yellow;
   }
