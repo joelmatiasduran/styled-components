@@ -39,10 +39,8 @@ export const ServicesWrapper = styled.div`
 export const ServicesCard = styled.div`
   box-shadow: 0px 0px 20px 10px #fcd600f8;
   padding: 0.4em;
-
   background: black;
   color: yellow;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
