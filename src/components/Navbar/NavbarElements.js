@@ -72,10 +72,8 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  text-transform: Uppercase;
-  font-weight: 700;
+  text-transform: ${({ scrollNav }) => (scrollNav ? "none" : "Uppercase")};
   color: ${({ scrollNav }) => (scrollNav ? "white" : "black")};
-  font-weight: bolder;
   display: flex;
   align-items: center;
   text-decoration: none;
